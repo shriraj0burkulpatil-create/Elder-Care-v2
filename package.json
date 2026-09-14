@@ -1,0 +1,10 @@
+{
+  "name": "eldercare-enhanced",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Enhanced ElderCare full-stack application with a static HTML frontend and Node/Express backend.",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "dev": "node server.js" },
+  "engines": { "node": ">=18" },
+  "dependencies": { "bcryptjs": "^2.4.3", "express": "^4.21.2", "multer": "^1.4.5-lts.1" }
+}
